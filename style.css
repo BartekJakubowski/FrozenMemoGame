@@ -1,0 +1,27 @@
+body {
+    padding: 1px;
+}
+
+.plansza {
+    margin:5px auto;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    width: 850px;
+    height: 640px;
+    border: 2px solid #ddd;
+}
+
+.kafelek {
+    position: absolute;
+    cursor: pointer;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: #f6da17 url(images/title.png) center center no-repeat;
+    margin: 10px;
+}
+
+.kafelek:hover {
+    background-color:#F7C11A;
+}
